@@ -37,15 +37,27 @@ span {
     font-size: 3rem;
     line-height: 32px;
 }
+
+/* hr */
+hr {
+    border: 1px solid black;
+}
+
 /* img */
 img {
     width: 100%;
 }
 .img-wrapper {
-    width: 6%;
+    width: 90px;
 }
 
 /* box */
+.box-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffc42e;
+}
+
 .box-1st {
     display: flex;
 }
@@ -55,6 +67,7 @@ img {
 .box-3rd {
     display: flex;
     flex-flow: column nowrap;
+    gap: 48px;
 }
 .box-4th {
     display: flex;
