@@ -68,11 +68,12 @@ img {
     background-color: #ffc42e;
     padding: 24px 30px;
     height: 400px;
+    max-width: 1080px;
 }
 
 .box-container div {
     display: flex;
-    /* width: fit-content; */
+    width: fit-content;
 }
 
 .box-1st {
@@ -91,11 +92,24 @@ img {
 .box-4th {
     flex-direction: column;
     justify-content: space-between;
+    /* max-width: 800px; */
     flex-grow: 1;
+    /* flex-basis: 800px; */
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+
 }
 .box-4th > h1 {
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
 }
+
+/* 왜 두번 걸어줘야되지??? why?? */
 
 
 div > h2 {
