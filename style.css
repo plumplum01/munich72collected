@@ -1,0 +1,61 @@
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'light';
+    src: url('./universnextpro-light-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'medium';
+    src: url('./universnextpro-medium-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'regular';
+    src: url('./universnextpro-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'medium';
+    font-size: 6rem;
+    line-height: 55px;
+}
+
+span {
+    font-family: 'regular';
+    font-size: 3rem;
+    line-height: 32px;
+}
+/* img */
+img {
+    width: 100%;
+}
+.img-wrapper {
+    width: 6%;
+}
+
+/* box */
+.box-1st {
+    display: flex;
+}
+.box-2nd {
+    display: flex;
+}
+.box-3rd {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.box-4th {
+    display: flex;
+}
