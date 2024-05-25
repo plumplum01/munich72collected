@@ -44,6 +44,7 @@ span {
     font-family: 'medium';
     font-size: 2rem;
     line-height: 22px;
+    letter-spacing: 0.5px;
 }
 
 /* hr */
@@ -62,7 +63,7 @@ img {
 }
 
 /* box */
-.box-container {
+.ticket-container {
     display: flex;
     flex-direction: row;
     background-color: #ffc42e;
@@ -71,25 +72,25 @@ img {
     max-width: 1080px;
 }
 
-.box-container div {
+.ticket-container div {
     display: flex;
     width: fit-content;
 }
 
-.box-1st {
+.ticket-1st {
     /* max-width: 300px; */
     flex-basis: 230px;
 }
 
-.box-2nd {
+.ticket-2nd {
     flex-basis: 200px;
 }
 
-.box-3rd {
+.ticket-3rd {
     flex-flow: column nowrap;
     gap: 48px;
 }
-.box-4th {
+.ticket-4th {
     flex-direction: column;
     justify-content: space-between;
     /* max-width: 800px; */
@@ -102,7 +103,7 @@ img {
     flex: 1;
 
 }
-.box-4th > h1 {
+.ticket-4th > h1 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -111,16 +112,43 @@ img {
 
 /* 왜 두번 걸어줘야되지??? why?? */
 
-#box-date {
+#ticket-date {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     /* flex: 1; */
 }
 
-.box-4th > h2 {
+.ticket-4th > h2 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     /* flex: 1; */
+}
+
+/* room number card */
+.roomnumber-container {
+    width: 800px;
+}
+
+
+
+.number {
+    font-size: 12rem;
+    font-family: 'medium';
+    letter-spacing: -17px;
+    background-color: pink;
+    height: 270px;
+    padding-left: 2rem;
+}
+
+.roomnumber-text {
+    font-family: 'medium';
+    font-size: 2rem;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    background-color: aquamarine;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    height: 270px;
 }
