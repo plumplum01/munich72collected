@@ -8,6 +8,10 @@ h1,h2,h3,h4,h5 {
     margin: 0;
 }
 
+body {
+    margin: 0;
+}
+
 @font-face {
     font-family: 'light';
     src: url('../universnextpro-light-webfont.woff2') format('woff2');
@@ -147,8 +151,17 @@ img {
     font-size: 2rem;
     line-height: 22px;
     letter-spacing: 0.5px;
-    background-color: aquamarine;
+    background-color: white;
     padding-left: 2rem;
     padding-top: 2rem;
     height: 270px;
+}
+
+.body {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
