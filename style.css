@@ -4,6 +4,12 @@
     word-break: keep-all;
 }
 
+:root {
+    --black: #161616;
+    --white: #fff;
+    --pink: #ff7189;
+}
+
 h1, h2, h3, h4, h5 {
     margin: 0;
 }
@@ -13,7 +19,7 @@ body {
 }
 
 .body {
-    background-color: black;
+    background-color: var(--black);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -68,7 +74,7 @@ span {
 
 /* hr */
 hr {
-    border: 1px solid black;
+    border: 1px solid var(--black);
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -91,6 +97,7 @@ img {
     height: 400px;
     width: 100%; /* Add this line to make the container flexible */
     max-width: 1080px; /* Add this line to limit the maximum width */
+    box-shadow: 0 0 50px 12px #ffffff39;
 }
 
 .ticket-container > div {
@@ -130,13 +137,14 @@ img {
 .roomnumber-container {
     width: 800px;
     cursor: pointer;
+    box-shadow: 0 0 50px 12px #ffffff39;
 }
 
 .number {
     font-size: 12rem;
     font-family: 'medium';
     letter-spacing: -2.2rem;
-    background-color: pink;
+    background-color: #ff7189;
     height: 270px;
     padding-left: 2rem;
     font-variant-numeric: tabular-nums;
