@@ -135,9 +135,9 @@ img {
 
 /* room number card */
 .roomnumber-container {
-    width: 800px;
+    width: 720px;
     cursor: pointer;
-    box-shadow: 0 0 50px 12px #ffffff39;
+    box-shadow: 0 0 50px 12px #ff7189;
 }
 
 .number {
@@ -146,10 +146,16 @@ img {
     letter-spacing: -2.5rem;
     background-color: #ff7189;
     /* background: linear-gradient(90deg, #ff7189 40%,  #959595 40%); */
-    height: 270px;
+    height: 300px;
     padding-left: 2rem;
     font-variant-numeric: tabular-nums;
     font-feature-settings: "tnum" 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.number:hover {
+    color: white;
+    background-color: #7d7d7d;
 }
 
 .roomnumber-text {
@@ -160,9 +166,13 @@ img {
     background-color: white;
     padding-left: 2rem;
     padding-top: 2rem;
-    height: 270px;
+    height: 300px;
 }
 
 .body:nth-of-type(2) .number {
     background-color: #398f4c;
 }
+.roomnumber-container:nth-of-type(2) {
+    box-shadow: 0 0 50px 12px #398f4c;
+}
+
