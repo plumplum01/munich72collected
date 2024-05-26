@@ -141,9 +141,9 @@ img {
 }
 
 .number {
-    font-size: 12rem;
+    font-size: 14rem;
     font-family: 'medium';
-    letter-spacing: -2.2rem;
+    letter-spacing: -2.5rem;
     background-color: #ff7189;
     height: 270px;
     padding-left: 2rem;
