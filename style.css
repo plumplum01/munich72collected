@@ -144,13 +144,12 @@ img {
     font-size: 14rem;
     font-family: 'medium';
     letter-spacing: -2.5rem;
-    /* background-color: #ff7189; */
-    background: linear-gradient(90deg, rgb(88, 83, 187) 0%,  rgba(6,160,135,1) 83%);
+    background-color: #ff7189;
+    /* background: linear-gradient(90deg, #ff7189 40%,  #959595 40%); */
     height: 270px;
     padding-left: 2rem;
     font-variant-numeric: tabular-nums;
     font-feature-settings: "tnum" 1;
-
 }
 
 .roomnumber-text {
@@ -162,4 +161,8 @@ img {
     padding-left: 2rem;
     padding-top: 2rem;
     height: 270px;
+}
+
+.body:nth-of-type(2) .number {
+    background-color: #398f4c;
 }
