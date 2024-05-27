@@ -90,6 +90,7 @@ img {
 
 /* ticket */
 #container-wrap {
+    display: flex;
     flex-flow: column wrap;
     width: 100%;
     max-width: 1080px; 
@@ -100,6 +101,14 @@ img {
     width: fit-content;
 }
 
+@media (max-width: 1000px) {
+    #container-wrap {
+        flex-direction: column; /* 화면이 작아질 때 column으로 변경 */
+    }
+    .ticket-container {
+        height: auto !important;
+    }
+}
 
 
 
