@@ -89,6 +89,20 @@ img {
 }
 
 /* ticket */
+#container-wrap {
+    flex-flow: column wrap;
+    width: 100%;
+    max-width: 1080px; 
+}
+
+#container-wrap > div {
+    display: flex;
+    width: fit-content;
+}
+
+
+
+
 .ticket-container {
     display: flex;
     flex-direction: row;
