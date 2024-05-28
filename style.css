@@ -109,12 +109,17 @@ img {
 @media (max-width: 550px) {
     #container-wrap {
         flex-direction: column; /* 화면이 작아질 때 column으로 변경 */
+        width: 80%;
+        max-width: 480%;
     }
     .ticket-container {
         height: auto !important;
     }
     .ticket-4th {
         flex-basis: 480px;
+    }
+    hr {
+        width: 100%;
     }
 }
 
