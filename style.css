@@ -101,6 +101,11 @@ img {
     width: fit-content;
 }
 
+@media (min-width: 1000px) {
+    #container-wrap {
+        flex-flow: row nowrap;
+    }
+}
 @media (max-width: 1000px) {
     #container-wrap {
         flex-direction: column; /* 화면이 작아질 때 column으로 변경 */
