@@ -98,7 +98,7 @@ img {
 /* ticket */
 #container-wrap {
     display: flex;
-    flex-flow: column wrap;
+    /* flex-flow: column wrap; */
     width: 100%;
     max-width: 1080px; 
 }
