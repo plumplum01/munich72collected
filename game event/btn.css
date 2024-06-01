@@ -133,6 +133,7 @@ main {
     display: grid;
     grid-template-columns: repeat(var(--col-num), 1fr);
     --scene-bg: hsl(307deg 4% 94%);
+    display: flex;
 }
 @media (min-width: 500px) {
     main {
